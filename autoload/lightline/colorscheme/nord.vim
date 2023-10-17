@@ -24,13 +24,13 @@ let s:nord16 = ["NONE", "NONE"]
 
 let s:p.normal.left = [ [ s:nord1, s:nord8 ], [ s:nord5, s:nord1 ] ]
 let s:p.normal.middle = [ [ s:nord16, s:nord16 ] ]
-let s:p.normal.right = [ [ s:nord5, s:nord1 ], [ s:nord5, s:nord1 ] ]
+let s:p.normal.right = [ [ s:nord16, s:nord16 ], [ s:nord16, s:nord16 ] ]
 let s:p.normal.warning = [ [ s:nord1, s:nord13 ] ]
 let s:p.normal.error = [ [ s:nord1, s:nord11 ] ]
 
 let s:p.inactive.left =  [ [ s:nord1, s:nord8 ], [ s:nord5, s:nord1 ] ]
 let s:p.inactive.middle = [ [ s:nord16, s:nord16 ] ]
-let s:p.inactive.right = [ [ s:nord5, s:nord1 ], [ s:nord5, s:nord1 ] ]
+let s:p.inactive.right = [ [ s:nord16, s:nord16 ], [ s:nord16, s:nord16 ] ]
 
 let s:p.insert.left = [ [ s:nord1, s:nord6 ], [ s:nord5, s:nord1 ] ]
 let s:p.replace.left = [ [ s:nord1, s:nord13 ], [ s:nord5, s:nord1 ] ]

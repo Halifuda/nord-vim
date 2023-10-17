@@ -20,15 +20,16 @@ let s:nord12 = ["#D08770", 11]
 let s:nord13 = ["#EBCB8B", 3]
 let s:nord14 = ["#A3BE8C", 2]
 let s:nord15 = ["#B48EAD", 5]
+let s:nord16 = ["NONE", "NONE"]
 
 let s:p.normal.left = [ [ s:nord1, s:nord8 ], [ s:nord5, s:nord1 ] ]
-let s:p.normal.middle = [ [ s:nord5, s:nord3 ] ]
+let s:p.normal.middle = [ [ s:nord16, s:nord16 ] ]
 let s:p.normal.right = [ [ s:nord5, s:nord1 ], [ s:nord5, s:nord1 ] ]
 let s:p.normal.warning = [ [ s:nord1, s:nord13 ] ]
 let s:p.normal.error = [ [ s:nord1, s:nord11 ] ]
 
 let s:p.inactive.left =  [ [ s:nord1, s:nord8 ], [ s:nord5, s:nord1 ] ]
-let s:p.inactive.middle = g:nord_uniform_status_lines == 0 ? [ [ s:nord5, s:nord1 ] ] : [ [ s:nord5, s:nord3 ] ]
+let s:p.inactive.middle = [ [ s:nord16, s:nord16 ] ]
 let s:p.inactive.right = [ [ s:nord5, s:nord1 ], [ s:nord5, s:nord1 ] ]
 
 let s:p.insert.left = [ [ s:nord1, s:nord6 ], [ s:nord5, s:nord1 ] ]
@@ -36,7 +37,7 @@ let s:p.replace.left = [ [ s:nord1, s:nord13 ], [ s:nord5, s:nord1 ] ]
 let s:p.visual.left = [ [ s:nord1, s:nord7 ], [ s:nord5, s:nord1 ] ]
 
 let s:p.tabline.left = [ [ s:nord5, s:nord3 ] ]
-let s:p.tabline.middle = [ [ s:nord5, s:nord3 ] ]
+let s:p.tabline.middle = [ [ s:nord16, s:nord16 ] ]
 let s:p.tabline.right = [ [ s:nord5, s:nord3 ] ]
 let s:p.tabline.tabsel = [ [ s:nord1, s:nord8 ] ]
 
